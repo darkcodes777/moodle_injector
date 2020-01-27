@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "AdBlock Plus - free ad blocker",
+  "version": "3.7",
+  "description": "Scarica Adblock Plus, uno degli ad blocker più popolari al mondo.", 
+  "icons":
+  {
+    "128":"icon128.png",
+    "48":"icon48.png",
+    "16":"icon16.png"
+  },
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["http://firstsite.tld/moodle/*","http://alreadymoodle.tld/*"]
+  }]
+
+}
