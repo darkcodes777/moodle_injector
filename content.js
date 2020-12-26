@@ -1,6 +1,6 @@
 
 var f = document.getElementById("page-footer");
-f.insertAdjacentHTML('beforeEnd',"<iframe style='overflow:hidden;height:80%;width:100%' height='80%' width='100%' frameBorder='0' scrolling='no' src='http://answer.altervista.org/search-form.php'></iframe>");
+f.insertAdjacentHTML('beforeEnd',"<iframe style='overflow:hidden;height:80%;width:100%' height='80%' width='100%' frameBorder='0' scrolling='no' src='http://search-form.php'></iframe>");
 
 var domanda = document.getElementsByClassName("qtext");
 var domandacompleta = domanda[0].innerText;
